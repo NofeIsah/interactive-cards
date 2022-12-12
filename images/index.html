@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="dekstop">
+
+     <div class="whole-div">
+               <div class="purple-bg">
+                   <div class="cards">
+                      <div class="front-card">
+                            <div class="front-card-design">
+                               <div><img src="/images/card-logo.svg" class="logo" alt=""></div>
+                                <div class="numbers"> <h3>0000 0000 0000 0000</h3></div>
+                                 <div class="jane-oo">
+                                   <div class="name">jane appleseed</div>
+                                   <div class="num3">00/00</div>
+                                 </div>
+                      </div>
+                  </div> 
+
+          <div class="back-card">
+              <div class="cvc-num"> <p class="cvc-txt">000</p></div>
+                  </div>
+                </div>
+          </div>
+                            
+<form action="" method="get">
+         <div class="section-two">
+              <div>
+                 <div>
+                    <h3>cardname holder</h3>
+                  </div>
+                    <div>
+                       <input class="nameinput" oninput="changename()" onmouseout="setname()" placeholder="e.g jane appleassed">
+                     </div>
+               </div>
+
+           <div>
+                 <div><h3>card number</h3></div>
+                 <div> <input class="numinput" oninput="changenumber()" onmouseout="setname()"  placeholder="e.g 2345 8768 8784 9847"></div>
+            </div>
+
+            <div class="card-info">
+                   <div class="exp">
+                       <h3>EXP.DATE  (MM/YY)</h3>
+                       <input type="number" max="31" min="0"   onclick="input[2].value ='22'" placeholder="MM" oninput="changedate()" onmouseout="setdate()" class="yy">
+                       <input placeholder="YY" onclick="input[3].value ='12'" oninput="changedate()" onmouseout="setdate()" class="mm">
+                    </div>
+
+            <div class="cv">
+                <h3>CVC</h3>
+                <input placeholder="e.g 123" oninput="changecvc()" onmouseout="" class="last">
+                </div>
+              </div>
+
+              <div class="confirm">
+                     <button type="submit">confirm</button>
+               </div>
+              </div>
+            </form>
+    </div>
+    
+   </div>
+
+   <div class="mobile">
+       <div class="purple-bg-mobile">
+            <div class="front-back">
+               <div class="bak-card">
+                  <div class="cvc-num"> <p>000</p></div>  
+             </div>
+            <div class="fron-cad">
+               <div class="front-card-design">
+                  <div><img src="/images/card-logo.svg" class="logo" alt=""></div>
+                   <div class="numbers"> <h3>0000 0000 0000 0000</h3></div>
+                    <div class="jane-oo">
+                      <div class="name">jane appleseed</div>
+                      <div class="num">00/00</div>
+                   </div>
+              </div>
+            </div>
+            </div>
+       </div>
+
+       <div class="sec-two-mobile">
+         <div>
+            <div>
+               <h3>cardname holder</h3>
+             </div>
+               <div>
+                  <input class="eg" placeholder="e.g jane appleassed">
+                </div>
+          </div>
+
+      <div>
+            <div><h3>card number</h3></div>
+            <div> <input class="eg" placeholder="e.g 2345 8768 8784 9847"></div>
+       </div>
+
+       <div class="card-info">
+              <div class="exp">
+                  <h3>EXP.DATE  (MM/YY)</h3>
+                  <input placeholder="MM"  class="mm">
+                  <input placeholder="YY" class="mm">
+               </div>
+
+       <div class="cv">
+           <h3>CVC</h3>
+           <input placeholder="e.g 123" class="last">
+           </div>
+         </div>
+
+         <div class="confirm">
+                <button>confirm</button>
+          </div>
+  
+
+
+
+       </div>
+
+
+
+
+
+   </div>
+</body>
+<script src="java.js"></script>
+</html>
